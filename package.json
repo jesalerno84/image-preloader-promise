@@ -1,0 +1,29 @@
+{
+  "name": "image-preloader-with-state",
+  "version": "1.0.0",
+  "description": "Preload an image and provide information about the success / failure of the operation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesalerno84/image-preloader-with-state.git"
+  },
+  "keywords": [
+    "javascript",
+    "image",
+    "preload"
+  ],
+  "author": "Jeff Salerno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesalerno84/image-preloader-with-state/issues"
+  },
+  "homepage": "https://github.com/jesalerno84/image-preloader-with-state#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "webpack": "^1.12.9"
+  }
+}
