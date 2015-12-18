@@ -2,6 +2,12 @@
 var ImagePreloader = require('../src/ImagePreloader.js').default;
 
 describe('ImagePreloader', function () {
+	beforeEach(function (done) {
+		setTimeout(function () {
+			
+		})
+	});
+	
 	it('throws an error on preloadImage when path is null', function () {
 		var threwError = false;
 		try {
