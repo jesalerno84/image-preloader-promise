@@ -28,15 +28,12 @@
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-eslint": "^4.1.6",
-    "babel-jest": "^6.0.1",
-    "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "babelify": "^7.2.0",
     "eslint": "^1.10.3",
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
-    "jest-cli": "^0.8.2",
     "karma": "^0.13.15",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-browserify": "^4.4.2",
@@ -45,12 +42,5 @@
   },
   "dependencies": {
     "q": "^1.4.1"
-  },
-  "jest": {
-    "scriptPreprocessor": "./node_modules/babel-jest",
-    "testRunner": "./node_modules/jest-cli/src/testRunners/jasmine/jasmine2.js",
-    "modulePathIgnorePatterns": [
-      "./node_modules/"
-    ]
   }
 }
