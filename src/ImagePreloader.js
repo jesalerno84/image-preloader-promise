@@ -14,7 +14,7 @@ export default class ImagePreloader {
 			
 			img.onload = function () {
 				resolve();
-			}
+			};
 			
 			img.src = path;
 		});
@@ -35,6 +35,6 @@ export default class ImagePreloader {
 			promises.push(ImagePreloader.preloadImage(paths[x]));
 		}
 		
-		return q.all(promises);
+		return q.allSettled(promises);
 	}
 }
