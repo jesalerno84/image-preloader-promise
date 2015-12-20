@@ -1,2 +1,2 @@
-# image-preloader-with-state
-Preload an image and provide information about the success / failure of the operation.
+# image-preloader-promise
+Preload an image or a collection of images and return a promise
