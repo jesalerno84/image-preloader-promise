@@ -1,13 +1,14 @@
 {
   "name": "image-preloader-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preload an image and provide information about the success / failure of the operation.",
-  "main": "./src/ImagePreloader.js",
+  "main": "./lib/ImagePreloader.js",
   "scripts": {
     "test": "karma start",
     "build": "babel src -d lib --source-maps true",
     "lint": "eslint src",
-    "build-example": "webpack -d"
+    "build-example": "webpack -d",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
