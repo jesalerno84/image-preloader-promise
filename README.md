@@ -1,2 +1,2 @@
 # image-preloader-promise
-Preload an image or a collection of images and return a promise
+Preload an image or a collection of images and return a promise (ES6)
